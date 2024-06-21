@@ -28,6 +28,10 @@ body {
 .postcard-header h1 {
 	width: 200px;
 	margin: 0;
+	font-family: "Times New Roman";
+	font-optical-sizing: auto;
+	font-weight: 30;
+	font-style: italic;
 }
 
 .postcard-body {
@@ -38,9 +42,16 @@ body {
 	margin-top: 0;
 }
 
+.body-right img {
+	height: 10vh;
+	width: 10vh;
+	border-radius: 20px;
+}
+
 .body-left,
 .body-right {
-	padding: 50px;
+	padding: 10px;
+	padding-top: 30px;
 }
 
 input {
@@ -50,6 +61,7 @@ input {
 
 .postcard-footer {
 	text-align: center;
+	padding-top: 30px;
 }
 
 button {
